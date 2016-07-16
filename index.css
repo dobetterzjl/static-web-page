@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+.container{
+	width:1170px;
+	
+	margin: 0 auto;
+}
+#header{
+	height: 67px;
+}
+#header .container{
+    height: 67px;
+    /*background-color: #ccc;*/
+}
+ 
+ #header .container h1{
+ 	width:185px;
+ 	height: 50px;
+ 	
+ 	text-align: center;
+ 	line-height: 50px;
+ 		padding: 8px;
+ 		float: left;
+ 		margin-right: 20px;
+ }
+ #header h1 a{
+ 	color: #c7ab84;
+ }
+ .lettercolor{
+ 	color: #c7ab84;
+ }
+#header .list,#ul1 a{
+	display: inline-block;
+	width: 81px;
+	height: 20px;
+	color: black;
+	font-weight: bold;
+
+}
+#header .list{
+	float: left;
+	margin-right: 2px;
+	text-align: center;
+	line-height: 20px;
+}
+#ul1{
+	padding: 20px;
+}
+/*content*/
+#content{
+	width: 1349px;
+	height: 632px;
+	position: relative;
+	overflow: hidden;
+}
+#wrap{
+	width: 4050px;
+	height: 632px;
+}
+#content1{
+	
+ background: url(images/ban.jpg) no-repeat;
+
+}
+#content2{
+	
+	background: url(images/ban1.jpg) no-repeat;
+	
+}
+#content3{
+	
+	background: url(images/ban2.jpg) no-repeat;
+	
+}
+#content1,#content2,#content3{
+	
+    width: 1349px;
+	height: 632px;
+	background-size: 1349px 632px;
+	position: relative;
+	float: left;
+}
+#pinpoint1,#pinpoint2,#pinpoint3{
+	width: 729px;
+	height: 329px;
+    background: rgba(106, 67, 28, 0.66);
+    opacity: 0.5;
+    position: absolute; 
+    top: 50%;
+    margin-top:-165px;
+    left: 50%;
+    margin-left:-365px;
+}
+#span .circleColor{
+	background-color: white;
+}
+#content h3{
+	color: white;
+	text-align: center;
+	padding: 80px;
+}
+#content .circle{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	border:1px solid white;
+	
+	margin-left: 5px;
+
+
+}
+#content #span{
+	width:80px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	
+	left:680px; 
+}
+/*tag*/
+#tag{
+	height: 80px;
+	background-color: #C7AB84;
+	text-align: center;
+	line-height: 80px;
+	color: white;
+}
+#intro{
+	height: 862px;
+	width: 100%;
+	padding: 84px 0;
+}
+#intro #left,#intro #underright{
+	width: 510px;
+	height: 352px;
+	padding: 30px;
+	/*background-color: #ccc;*/
+	float: left;
+
+}
+#intro p{
+	width: 510px;
+	height: 165px;
+	margin: 40px 0;
+	line-height: 30px;
+	font-size: 15px;
+	 color: #7B7B78;
+}
+#intro .inli{
+	width: 170px;
+	height: 25px;
+	float: left;
+	font-weight: bold;
+}
+ #left span, #underright span, .btn{
+	display: inline-block;/*设成block不行*/
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: #51311A;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 4px;
+}
+#intro #right,#underleft {
+	width: 570px;
+	height: 412px;
+	
+	float: left;
+}
+#right img,#underleft img{
+	width: 570px;
+	height: 412px;
+}
+/*newest*/
+#newest{
+	margin-bottom: 50px;
+}
+#newest .container{
+	height: 815px;
+	/*padding: 80px;*/
+}
+#imgs .lastest{
+	width: 550px;
+	height: 365px;
+	margin: 5px;
+}
+#newest h1{
+	text-align: center;
+	color: #c7ab84;
+}
+#explain{
+	background-color: #C7AB84;
+}
+#explain .container{
+	height: 130px;
+	padding: 84px 0;
+	position: relative;
+
+}
+#exp{
+	height: 130px;
+	overflow: hidden;
+}
+#explain #diamond .borderColor{
+	 border-color: white;
+}
+#explain .exp1{
+	height:130px; 
+	display: none;
+}
+#explain #exp .show{
+	display: block;
+}
+#explain h2{
+	padding: 30px 0;
+	color: white;
+}
+#explain p{
+	color: white;
+}
+#diamond{
+	width: 100px;
+	height: 10px;
+	position: absolute;
+	bottom: 50px;
+	left: 585px;
+}
+#explain .diamond{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border: 2px solid black;
+}
+/*brand*/
+#brand{
+	background-color: #F7F5F5;
+}
+#brand .container{
+	height: 89px;
+	padding: 56px 0;
+	
+}
+#brand h3{
+	text-align: center;
+	color: #aaa;
+	padding-bottom: 10px;
+}
+#brand span{
+
+	width: 60px;
+	height: 2px;
+	background: #C7AB84;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+ #brand li a{
+	width:42px;
+	height: 42px; 
+	
+	background: url(images/social.png) no-repeat;
+	display: inline-block;
+	float: left;
+}
+#brand li .li1{
+	background-position: -100px 0;
+}
+#brand li .li2{
+	background-position: -146px 0;
+}
+#brand li .li3{
+	background-position: -188px 0;
+}
+#brand li .li4{
+	background-position: -230px 0;
+}
+#brand ul{
+	width:170px; 
+	height:42px;
+	margin: 0 auto;
+}
+/*last*/
+#last{
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background:#FFDFC9;
+	color: #827A7A;
+}
