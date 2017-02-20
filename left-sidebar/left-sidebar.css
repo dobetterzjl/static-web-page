@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#sidebar{
+    width: 370px;
+    height: 456px;
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+#sidebar .menu{
+    width: 114px;
+    height: 363px;
+    margin: 49px 138px 45px  120px;
+}
+#sidebar .list {
+
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 16px;
+}
+#sidebar .list a{
+    float: right;
+    color: #6a6e71;
+    font-size: 18px;
+}
+#sidebar .list a.active{
+    color: #5ce1a8;
+}
+#sidebar .list .sidebar-icon{
+    display: inline-block;
+    width: 27px;
+    height:26px;
+    margin-top: 10px;
+    /*line-height: 26px;*/
+    float: left;
+
+}
+#sidebar .list .order{
+    background: url("spirts.png") no-repeat -27px -26px;
+}
+#sidebar .list .collect{
+    background: url("spirts.png") no-repeat -29px 0;
+}
+#sidebar .list .info{
+    background: url("spirts.png") no-repeat -54px -25px;
+}
+#sidebar .list .comment{
+    background: url("spirts.png") no-repeat 0px -26px;
+}
+#sidebar .list .profile{
+    background: url("spirts.png") no-repeat 0 0;
+}
+#sidebar .list .password{
+    background: url("spirts.png") no-repeat 0px -54px;
+}
+#sidebar .chosestyle{
+    width:7px;
+    height: 58px;
+    background-color: #48b189;
+    position:absolute;
+    right: 0;
+}
